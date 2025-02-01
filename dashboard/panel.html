@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<style>
+			.monospace {
+				font-family: monospace;
+			}
+
+			.pokemon-lookup {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				* {
+					flex: 1;
+					max-width: 100px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root">
+			<div class="pokemon-lookup">
+				<button id="dex-previous" data-number="-1">👈</button>
+				<input id="dex-number" type="number" value="1" min="1"  />
+				<button id="dex-next" data-number="+1">👉</button>
+			</form>
+		</div>
+		<script type="module" src="./panel.js"></script>
+	</body>
+</html>
