@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         frenchNameElement.textContent = pokemon.translatedName;
         englishNameElement.textContent = pokemon.englishName;
         sillyTranslationElement.textContent = pokemon.assholeTranslation || '-';
-        // todo : display ethymology
+        displayPokemonEtymology(ethymologyElement, pokemon);
     });
 
     nodecg.sendMessage('sendFirstPokemon');
@@ -24,4 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function displayPokemonImage(imageElement, pokemon) {
     imageElement.src = imageElement.dataset.urlScheme.replace(':nationaldex', pokemon.dexNumber);
+}
+
+function displayPokemonEtymology(etymologyElement, pokemon) {
+    etymologyElement.innerHTML = '';
+
+    if (pokemon.ethymology && 0 < pokemon.ethymology.length) {
+        pokemon.ethymology.forEach((etymology) => {
+            etymologyElement.appendChild(createEtymologyItem(etymology.word, etymology.meaning));
+        });
+    } else {
+        etymologyElement.appendChild(createEtymologyItem('-', '-'));
+    }
+}
+
+function createEtymologyItem(word, meaning) {
+    const etymologyItem = document.createElement('li');
+
+    const wordElement = document.createElement('span');
+    wordElement.classList.add('word');
+    wordElement.textContent = word;
+    etymologyItem.appendChild(wordElement);
+
+    const meaningElement = document.createElement('span');
+    meaningElement.classList.add('meaning');
+    meaningElement.textContent = meaning;
+    etymologyItem.appendChild(meaningElement);
+
+    return etymologyItem;
 }
