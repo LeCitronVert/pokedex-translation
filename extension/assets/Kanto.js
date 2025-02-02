@@ -33,7 +33,7 @@ module.exports = class Kanto {
                 { word: "flore", meaning: "flora" },
                 { word: "bizarre", meaning: "weird" }
             ],
-            "weird flora"
+            "weird flower"
         ),
         new Pokemon(
             4, 
@@ -241,7 +241,7 @@ module.exports = class Kanto {
                 { word: "rapace", meaning: "bird of prey" },
                 { word: "as de pique", meaning: "ace of spades" }
             ],
-            null
+            "bird of spades"
         ),
         new Pokemon(
             23, 
@@ -400,7 +400,7 @@ module.exports = class Kanto {
                 { word: "rond", meaning: "round" },
                 { word: "doux", meaning: "soft" }
             ],
-            null
+            "round plushie"
         ),
         new Pokemon(
             40, 
@@ -411,7 +411,7 @@ module.exports = class Kanto {
                 { word: "gros", meaning: "big" },
                 { word: "doux", meaning: "soft" }
             ],
-            null
+            "big plushie"
         ),
         new Pokemon(
             41, 
@@ -444,7 +444,7 @@ module.exports = class Kanto {
                 { word: "mystère", meaning: "mystery" },
                 { word: "herbe", meaning: "herb" }
             ],
-            null
+            "mystical herb"
         ),
         new Pokemon(
             44, 
@@ -490,7 +490,7 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "mimi", meaning: "cute" },
-                { word: "toss", meaning: "suffix indicating a small creature" }
+                { word: "toss", meaning: "toss" }
             ],
             null
         ),
@@ -514,7 +514,7 @@ module.exports = class Kanto {
                 { word: "taupe", meaning: "mole" },
                 { word: "piqueur", meaning: "digger" }
             ],
-            null
+            "digging molme"
         ),
         new Pokemon(
             51, 
@@ -525,7 +525,7 @@ module.exports = class Kanto {
                 { word: "trio", meaning: "trio" },
                 { word: "piqueur", meaning: "digger" }
             ],
-            null
+            "digging trio"
         ),
         new Pokemon(
             52, 
@@ -554,7 +554,7 @@ module.exports = class Kanto {
                 { word: "psycho", meaning: "psycho" },
                 { word: "kwak", meaning: "quack" }
             ],
-            null
+            "psychopath quack"
         ),
         new Pokemon(
             55, 
@@ -565,7 +565,7 @@ module.exports = class Kanto {
                 { word: "akwa", meaning: "aqua" },
                 { word: "kwak", meaning: "quack" }
             ],
-            null
+            "water quack"
         ),
         new Pokemon(
             56, 
@@ -576,7 +576,7 @@ module.exports = class Kanto {
                 { word: "féroce", meaning: "ferocious" },
                 { word: "singe", meaning: "monkey" }
             ],
-            null
+            "ferocious monkey"
         ),
         new Pokemon(
             57, 
@@ -587,7 +587,7 @@ module.exports = class Kanto {
                 { word: "colosse", meaning: "colossus" },
                 { word: "singe", meaning: "monkey" }
             ],
-            null
+            "colossal monkey"
         ),
         new Pokemon(
             58, 
@@ -598,7 +598,7 @@ module.exports = class Kanto {
                 { word: "canin", meaning: "canine" },
                 { word: "os", meaning: "bone" }
             ],
-            null
+            "canine bone"
         ),
         new Pokemon(
             59, 
@@ -620,7 +620,7 @@ module.exports = class Kanto {
                 { word: "petit", meaning: "small" },
                 { word: "têtard", meaning: "tadpole" }
             ],
-            null
+            "small tadpole"
         ),
         new Pokemon(
             61, 
@@ -629,9 +629,9 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "têtard", meaning: "tadpole" },
-                { word: "arte", meaning: "suffix indicating a creature" }
+                { word: "tarte", meaning: "slap" }
             ],
-            null
+            "tadpole slap"
         ),
         new Pokemon(
             62, 
@@ -686,9 +686,9 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "macho", meaning: "macho" },
-                { word: "peur", meaning: "fear" }
+                { word: "choppeur", meaning: "grappler" }
             ],
-            null
+            "macho grappler"
         ),
         new Pokemon(
             68, 
@@ -697,7 +697,7 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "macho", meaning: "macho" },
-                { word: "cogneur", meaning: "hitter" }
+                { word: "cogneur", meaning: "bruiser" }
             ],
             null
         ),
@@ -718,7 +718,7 @@ module.exports = class Kanto {
             "Boustiflor", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "boustifaille", meaning: "feast" },
+                { word: "boustifaille", meaning: "food (/neg)" },
                 { word: "flor", meaning: "flower" }
             ],
             null
@@ -781,7 +781,7 @@ module.exports = class Kanto {
                 { word: "gros", meaning: "big" },
                 { word: "golem", meaning: "golem" }
             ],
-            null
+            "fat golem"
         ),
         new Pokemon(
             77, 
@@ -818,8 +818,7 @@ module.exports = class Kanto {
             "Flagadoss", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "flâner", meaning: "to stroll" },
-                { word: "doss", meaning: "back" }
+                { word: "flagada", meaning: "worn out" }
             ],
             null
         ),
@@ -850,7 +849,7 @@ module.exports = class Kanto {
                 { word: "canard", meaning: "duck" },
                 { word: "artichaut", meaning: "artichoke" }
             ],
-            null
+            "artichoke duck"
         ),
         new Pokemon(
             84, 
@@ -894,10 +893,10 @@ module.exports = class Kanto {
             "Tadmorv", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "tad", meaning: "tad" },
+                { word: "tas de", meaning: "pile of" },
                 { word: "morve", meaning: "snot" }
             ],
-            null
+            "pile of snot"
         ),
         new Pokemon(
             89, 
@@ -906,7 +905,7 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "gros", meaning: "big" },
-                { word: "tad", meaning: "tad" },
+                { word: "tas de", meaning: "pile of" },
                 { word: "morve", meaning: "snot" }
             ],
             null
@@ -941,7 +940,7 @@ module.exports = class Kanto {
                 { word: "fantôme", meaning: "ghost" },
                 { word: "minus", meaning: "small" }
             ],
-            null
+            "small ghost"
         ),
         new Pokemon(
             93, 
@@ -1009,7 +1008,7 @@ module.exports = class Kanto {
                 { word: "krab", meaning: "crab" },
                 { word: "boss", meaning: "boss" }
             ],
-            null
+            "crab boss"
         ),
         new Pokemon(
             100, 
@@ -1038,10 +1037,10 @@ module.exports = class Kanto {
             "Noeunoeuf", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "noeud", meaning: "knot" },
-                { word: "oeuf", meaning: "egg" }
+                { word: "oeuf", meaning: "egg" },
+                { word: "neuneu", meaning: "dummy" }
             ],
-            null
+            "eggegg or dummy egg"
         ),
         new Pokemon(
             103, 
@@ -1052,7 +1051,7 @@ module.exports = class Kanto {
                 { word: "noeud", meaning: "knot" },
                 { word: "coco", meaning: "coconut" }
             ],
-            null
+            "coconut. literally just coconut"
         ),
         new Pokemon(
             104, 
@@ -1061,9 +1060,9 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "os", meaning: "bone" },
-                { word: "squelette", meaning: "skeleton" }
+                { word: "lait", meaning: "milk" }
             ],
-            null
+            "baby bone"
         ),
         new Pokemon(
             105, 
@@ -1074,7 +1073,7 @@ module.exports = class Kanto {
                 { word: "os", meaning: "bone" },
                 { word: "tueur", meaning: "killer" }
             ],
-            null
+            "killer's bone"
         ),
         new Pokemon(
             106, 
@@ -1126,7 +1125,7 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "smog", meaning: "smog" },
-                { word: "go", meaning: "go" }
+                { word: "à gogo", meaning: "abundant" }
             ],
             null
         ),
@@ -1158,9 +1157,10 @@ module.exports = class Kanto {
             "Leveinard", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "le veinard", meaning: "the lucky one" }
+                { word: "le", meaning: "the" },
+                { word: "veinard", meaning: "lucky one" }
             ],
-            null
+            "the lucky one"
         ),
         new Pokemon(
             114, 
@@ -1170,7 +1170,7 @@ module.exports = class Kanto {
             [
                 { word: "sac de noeuds", meaning: "bag of knots" }
             ],
-            null
+            "bag of knots"
         ),
         new Pokemon(
             115, 
@@ -1212,9 +1212,10 @@ module.exports = class Kanto {
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
                 { word: "poisson", meaning: "fish" },
-                { word: "sirène", meaning: "mermaid" }
+                { word: "sirène", meaning: "mermaid" },
+                { word: "reine", meaning: "queen" }
             ],
-            null
+            "fish queen"
         ),
         new Pokemon(
             119, 
@@ -1225,7 +1226,7 @@ module.exports = class Kanto {
                 { word: "poisson", meaning: "fish" },
                 { word: "roy", meaning: "king" }
             ],
-            null
+            "fish king"
         ),
         new Pokemon(
             120, 
@@ -1276,10 +1277,10 @@ module.exports = class Kanto {
             "Lippoutou", 
             Pokemon.TRANSLATION_TYPE_NORMAL, 
             [
-                { word: "lips", meaning: "lips" },
+                { word: "lippu", meaning: "lippu" },
                 { word: "poutou", meaning: "kiss" }
             ],
-            null
+            "big lipped kiss"
         ),
         new Pokemon(
             125, 
